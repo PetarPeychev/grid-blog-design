@@ -6,6 +6,7 @@
 
 #contact img {
   margin-left: 2px;
+	max-width: calc(90% + 20px);
 }
 
 fieldset {
@@ -16,6 +17,7 @@ fieldset {
 }
 
 #contact input, #contact textarea {
+	max-width: 90%;
 	width:100%;
 	border:1px solid #CCC;
 	background:#FFF;
@@ -25,7 +27,7 @@ fieldset {
 
 #contact textarea {
 	height:100px;
-	max-width:100%;
+	max-width:90%;
   resize:none;
 }
 
